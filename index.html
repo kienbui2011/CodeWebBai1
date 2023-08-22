@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .anh {
+            display: block;
+            height: 200px;
+            width: 200px;
+            margin-left: 470px;
+            margin-right: auto;
+
+        }
+
+        h2 {
+            color: #000;
+        }
+
+        .mau {
+            background-color: rgb(96, 158, 158);
+            font-size: small;
+
+        }
+
+        table,
+        th,
+        td,
+        tr {
+
+            border: 1px solid black;
+            color: rgb(21, 23, 25);
+            margin-left: 300px;
+            text-align: center;
+            border-collapse: collapse;
+            height: 50%;
+        }
+
+        .bang {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           
+
+
+        }
+
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Bài 1 : Logo</h2>
+    <img class="anh" src="img/IMG_5500.PNG">
+
+    <h2>Bài 2 : Link</h2>
+
+
+    <a
+        href="https://hunre.edu.vn/truong-dai-hoc-tai-nguyen-va-moi-truong-ha-noi-nhan-giay-chung-nhan-kiem-dinh-chat-luong-co-so-giao-duc-chu-ky-2.html">
+        <h3>Lễ công bố Giấy chứng nhận kiểm định chất lượng cơ sở giáo dục chu kỳ 2</h3>
+    </a>
+
+
+    <h2>Bài 3 : Bảng</h2>
+    <table style="width:50%;height:90px">
+
+
+        <tr class="mau">
+            <th rowspan="2">STT</th>
+            <th rowspan="2">HỌ VÀ TÊN</th>
+            <th colspan="3">ĐIỂM</th>
+            <th rowspan="2">TỔNG ĐIỂM</th>
+            <th rowspan="2">GHI CHÚ</th>
+        </tr>
+
+        <tr class="mau">
+            <th>TOÁN</th>
+            <th> LÝ </th>
+            <th>HOÁ</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Bùi Văn Kiên</td>
+            <td>6</td>
+            <td>6</td>
+            <td>6</td>
+            <td>18</td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Thị A</td>
+            <td>6</td>
+            <td>6</td>
+            <td>7</td>
+            <td>19</td>
+            <td></td>
+
+        </tr>
+    </table>
+
+
+    <h2>Bài 4 : Bảng đăng kí</h2>
+    <div class="bang">
+
+        <form name="" action="" method="" enctype="">
+            <table border="1px" cellpadding="0" cellspacing="0"style="width:50%">
+                <tr align="center" >
+                    <td colspan="2" >
+                        <h2>ĐĂNG KÝ</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>UserName</td>
+                    <td><input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại Password</td>
+                    <td><input type="password" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <input type="radio" name="gender" value="nam">Nam
+                        <input type="radio" name="gender" value="nu">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <select name="diachi">
+                            <option value="na">Nghệ An</option>
+                            <option value="th">Thanh Hoá</option>
+                            <option value="nb">Ninh Bình</option>
+                            <option value="hd">Hải Dương</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Avatar</td>
+                    <td>
+                        <label for="avatar"></label>
+                        <input type="file" id="avatar" name="avatar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox" value="xemphim">Xem phim
+                        <input type="checkbox" value="dabong">Đá bóng
+                        <input type="checkbox" value="luotweb">Lướt web
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;
+                        <input type="submit" value="Ok">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
